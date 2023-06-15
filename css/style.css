@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+#header-area{
+	background-color: #1AA6E4;
+	padding: 15px;
+	text-align: center;
+}
+
+#logo-area, #menu-area{
+	padding: 10px;
+}
+
+#main-area {
+	width: 700px;
+	margin: 0 auto;
+	padding: 15px;
+
+}
+
+#content-area{
+	width: 400px;
+	float: left;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+#sidemenu-area{
+	width: 240px;
+	float: right;
+	background: white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#sidmenu-button{
+	padding: 5px;
+}
+
+img{
+	border-radius: 10px;
+}
+
+a:hover{
+	color: #1AA6E4;
+	background: #FFF;
+}
+
+}
+.post{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+	width: 640px;
+
+}
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+
+}
+h2{
+	margin-bottom: 10px;
+}
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+a{
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+#header-area a:link, #header-area a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#header-area a:hover{
+	color: #1AA6E4;
+	background: #FFF;
+}
+
+#sidemenu-area a:link, #sidemenu-area  a:visited {
+	color: #4e4e4e;
+}
+
+#sidemenu-area a:hover{
+	color: #CCC;
+	background: #FFF;
+}
+
